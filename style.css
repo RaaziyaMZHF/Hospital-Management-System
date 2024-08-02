@@ -201,7 +201,7 @@ section:nth-child(even){
 }
 
 .doctors .box-container .box img{
-    height: 18rem;
+    height: 17rem;
     border:var(--border);
     border-radius: .5rem;
     margin-top: 1rem;
@@ -283,7 +283,7 @@ section:nth-child(even){
 
 .services .box-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(21rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     gap:2rem;
     justify-content: space-around;
     /* display: flex; */
@@ -387,7 +387,7 @@ section:nth-child(even){
 
 .review .box-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     gap:2rem;
     /* margin: 100px; */
 }
@@ -610,7 +610,7 @@ section:nth-child(even){
     margin-left: 1rem;
 }
 
-@media (max-width:991px){
+@media (max-width:993px){
 
     html{
         font-size: 55%;
@@ -630,8 +630,30 @@ section:nth-child(even){
         color: #f1f1f1;
         width: 100%;
         padding: 10px;
-        top:380px;
+        top:400px;
     }
+
+    .home{
+        display: flex;
+        align-items: center;
+        /* flex-wrap: wrap; */
+        gap:5.5rem;
+        /* padding-top: 6rem; */
+        padding: 8rem 4rem;
+        background-color: #e5f4f4;
+    
+    
+    }
+
+    .services .box-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+        gap:2rem;
+        justify-content: space-around;
+        /* display: flex; */
+        /* flex-direction: row; */
+    }
+    
 
 }
 
@@ -677,6 +699,15 @@ section:nth-child(even){
         top:296px;
     }
 
+    .services .box-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+        gap:2rem;
+        justify-content: space-around;
+        /* display: flex; */
+        /* flex-direction: row; */
+    }
+
 }
 
 @media (max-width:576px){
@@ -691,7 +722,7 @@ section:nth-child(even){
         color: #f1f1f1;
         width: 100%;
         padding: 10px;
-        top:196px;
+        top:245px;
     }
 
 }
